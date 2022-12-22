@@ -24,6 +24,5 @@ This system will be used to determine and evaluate the skills of the employees i
 * Express
 * React
 * Node
-
 #
 #### by:  Alfonso Nowel Tabingo
