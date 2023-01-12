@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        fontFamily: {
+            'sans': ['ui-sans-serif', 'system-ui'],
+            'serif': ['ui-serif', 'Georgia'],
+            'mono': ['ui-monospace', 'SFMono-Regular'],
+        },
+      }
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+  </style>
+  <title>Card User Interface</title>
+</head>
+<body class="bg-gradient-to-br from-indigo-300 to-purple-400">
+
+    <div class="min-h-screen flex items-center justify-center">
+        <div class="container rounded-lg shadow-2xl bg-white max-w-xs">
+            
+          <button type="button" class="absolute top-80 mx-64 my-9 font-mono px-4 py-1.5 bg-yellow-300 text-gray-600 font-extralight text-3xl rounded-full shadow-xl">+</button>
+
+          <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+            <img class="rounded-t-lg" src="profile.jpg" alt=""/>
+            
+            <img class="absolute h-4 w-4 top-96 mx-72 -my-56" src="male-symbol.png" width="600"/>
+            
+            <img class="absolute h-5 w-5 mx-14 my-20" src="heart-icon.png" width="600" />
+
+            <img class="absolute h-5 w-4 mx-44 my-20" src="location-icon.png" width="600"/>
+          </a>
+
+          <div class="p-10">
+            <h5 class="text-gray-900 text-center font-serif text-xl font-semibold mb-0">Alfonso Tabingo</h5>
+
+            <div class="whitespace-pre text-gray-500 font-serif text-xs mb-5">    
+              Visual Designer           Philippines</div>
+
+            <div class="py-3 border-b-2 border-gray-200 text-gray-600"></div>
+            <div class="grid justify-center text-center divide-x-2 -mb-2">
+
+              <div class="row-start-2 text-gray-600 p-4 text-3xl font-extrabold">28k
+                <div class="text-base font-light">Followers</div>
+              </div>
+
+              <div class="row-start-2 text-gray-600 p-4 text-3xl font-extrabold">349
+                <div class="text-base font-light">Following</div>
+              </div>
+
+              <div class="row-start-2 text-gray-600 p-4 text-3xl font-extrabold">7k
+                <div class="text-base font-light">Likes</div>
+              </div>
+
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
